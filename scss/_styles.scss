@@ -162,7 +162,6 @@ nav.mobile-navigation {
 
 
 // Trending Section
-
 .trending {
 	padding-left: 0.9375rem;
 }
@@ -278,6 +277,7 @@ img.arrowright {
 .featured-item-slider-prices-wrapper {
 	margin: 0 auto;
 	max-width: 100px;
+	padding-bottom: 2em;
 }
 
 .featured-item-slider-price {
@@ -291,6 +291,28 @@ img.arrowright {
 	float: right;
 	text-decoration: line-through;
 	color: $greytext;
+}
+
+.add-to-bag-button {
+	font-family: $montserrat;
+	background-color: $gold;
+	text-align: center;
+	font-size: 10px;
+	text-transform: uppercase;
+	padding: 10px 25px 10px 25px;
+}
+
+.add-to-bag-button:hover {
+	background-color: black;
+}
+
+.add-to-bag-button:active {
+	color: $gold;
+}
+
+.add-to-bag-button:focus {
+	color: $gold;
+	background-color: black;
 }
 
 //	Loyalty box
@@ -456,7 +478,8 @@ img.brand-list-icons {
 
 //	Hover
 a:hover {
-	color: $gold;
+	color: $gold !important;
+	background-color: transparent;
 }
 
 .left-col, .right-col, .trending-num {
